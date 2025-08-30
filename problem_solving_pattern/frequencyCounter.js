@@ -60,5 +60,5 @@ function sameFrequency2(arr1, arr2) {
 }
 
 console.time("sameFrequency2");
-console.log(sameFrequency2([1, 3, 4, 4], [1, 9, 16, 16])); // true // O(n^2) time complexity
+console.log(sameFrequency2([1, 3, 4, 4], [1, 9, 16, 16])); // true // O(n) time complexity
 console.timeEnd("sameFrequency2");
